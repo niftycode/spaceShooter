@@ -1,5 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 # @Author: tasdik
 # @Contributers : Branden (Github: @bardlean86)
 # @Date:   2016-01-17
@@ -10,17 +11,17 @@
 # @Last Modified time: 2016-10-16
 # MIT License. You can find a copy of the License @ http://prodicus.mit-license.org
 
-## Game music Attribution
-##Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3 <http://creativecommons.org/licenses/by/3.0/>
+# Game music Attribution
+#Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3 <http://creativecommons.org/licenses/by/3.0/>
 
-## Additional assets by: Branden M. Ardelean (Github: @bardlean86)
+# Additional assets by: Branden M. Ardelean (Github: @bardlean86)
 
 from __future__ import division
 import pygame
 import random
 from os import path
 
-## assets folder
+# assets folder
 img_dir = path.join(path.dirname(__file__), 'assets')
 sound_folder = path.join(path.dirname(__file__), 'sounds')
 
