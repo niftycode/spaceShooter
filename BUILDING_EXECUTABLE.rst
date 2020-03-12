@@ -14,7 +14,7 @@ After installing it and adding the changes. Inside the ``spaceShooter`` director
 
 This will create an executable and place it inside the directory ``dist``
 
-2. Place the folders ``assets`` and ``sounds`` together with the excutable inside a single folder and zip it.
+2. Place the folders ``assets`` and ``sounds`` together with the executable inside a single folder and zip it.
 
 For example for ``v0.0.2``
 
@@ -27,7 +27,7 @@ For example for ``v0.0.2``
 For ``Windows`` based systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. `cx_freeze <http://cx-freeze.sourceforge.net/>`__ was used to create the excutable for Windows based systems
+1. `cx_freeze <http://cx-freeze.sourceforge.net/>`__ was used to create the executable for Windows based systems
 
 2. Use the `setup.py <https://github.com/tasdikrahman/spaceShooter/blob/master/setup.py>`__ file for building the executable.
 
@@ -40,3 +40,22 @@ For ``Windows`` based systems
 This will create a new folder inside ``spaceShooter``.
 
 4. Rename it and zip that file
+
+For ``macOS`` based systems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. You can use `pyinstaller <https://github.com/pyinstaller/pyinstaller/>`__ to create the executable.
+
+2. Install pyinstaller with
+
+.. code:: bash
+
+    pip3 install pyinstaller
+
+3. Run
+
+.. code:: bash
+
+    $ pyinstaller --onefile --windowed spaceShooter.py
+
+4. This will create an executable and place it inside the directory ``dist``.
